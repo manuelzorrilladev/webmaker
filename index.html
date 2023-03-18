@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocietMedia, haciendo la web a tu manera</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/estilos.css">
+    <link rel="stylesheet" href="assets/css/pruebas.css">
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
+</head>
+<body class="ligth">
+
+<!--****HEADER COMIENZA****-->
+    <!-- NAVBAR COMIENZA -->
+        <nav id="navBar" class="navbar">
+            <h3 class="logo">W.M.</h3>
+            <ul class="Nav">
+                <li class="li">
+                    <a href="#Servicios" class="navBarBtn">
+                        <div class="item">Servicios</div>
+                    </a>
+                </li>
+                <li class="li">
+                    <a href="#Acerca" class="navBarBtn">
+                        <!-- <div class="item">Acerca</div> -->
+                    </a>
+                </li>
+                <li class="li">
+                    <a href="#Planes" class="navBarBtn">
+                        <div class="item">Planes</div>
+                    </a>
+                </li>
+                <li class="li">
+                    <a href="#Contacto" class="navBarBtn">
+                        <div class="item">Contacto</div>  
+                    </a>
+                </li>
+                <li class="li">
+                    <div class="themeIcon" onclick="tema();" >
+                        <div class="bg">
+                            <span id="checkTheme" class="round"></span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <button class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    <!-- TERMINA NAVBAR -->
+    <!-- COMIENZA BANNER -->
+        <div class="headerContainer">
+            <div class="textBx">
+                <h2>La <span>web</span>, como nunca se habia visto.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio a vitae placeat suscipit fugiat necessitatibus eum eius asperiores aut ab?</p>
+                <a href="#" class="button button--hyperion buttonBig"><span><span>Explorar</span></span></a>
+            </div>
+            
+            <div class="round">
+                <img src="assets/img/logo.png" alt="" class="centerLogo">
+            </div>
+            
+
+        </div>
+        
+    <!-- TERMINA BANNER -->
+<!--*****TERMINA EL HEADER*****-->
+
+
+<!--**********-->
+
+
+<!--**** COMIENZA CONTENIDO**** -->
+    <!-- COMIENZA SLIDER -->
+    <section id="Servicios" class="contentBx" >
+            <div id="contenedor">
+                <div class="container">
+                        <div class="object">
+                            <div class="imagen">
+                                <img src="assets/img/pcfinal.png" alt="pc" class="thumb">
+                            </div>
+                            <div class="texto">
+                                <h2>Desarrollo Web a otro nivel</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni voluptates, laborum, optio corrupti aspernatur distinctio consequuntur ipsum asperiores nihil quis, quos fugiat expedita voluptatibus velit deleniti odit esse. Officiis, enim.</p>
+                                
+                            </div>
+                        </div>
+                        <div class="object invert">
+                            <div class="imagen">
+                                <img src="assets/img/laptopfinal.png" alt="laptop" class="thumb">
+                            </div>
+                            <div class="texto">
+                                <h2>Ajustados a tu marca</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni voluptates, laborum, optio corrupti aspernatur distinctio consequuntur ipsum asperiores nihil quis, quos fugiat expedita voluptatibus velit deleniti odit esse. Officiis, enim.</p>
+                                
+                            </div>
+                        </div>
+                        <div class="object">
+                            <div class="imagen">
+                                <img src="assets/img/socialmediafinal.png" alt="social" class="thumb fix">
+                            </div>
+                            <div class="texto">
+                                <h2>Posicionate entre en los mejores</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni voluptates, laborum, optio corrupti aspernatur distinctio consequuntur ipsum asperiores nihil quis, quos fugiat expedita voluptatibus velit deleniti odit esse. Officiis, enim.</p>
+                                
+                            </div>
+                        </div>
+                        <div class="object invert">
+                            <div class="imagen">
+                                <img src="assets/img/publicidad2final.png" alt="ads" class="thumb">
+                            </div>
+                            <div class="texto">
+                                <h2>Da visibilidad a tu negocio</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni voluptates, laborum, optio corrupti aspernatur distinctio consequuntur ipsum asperiores nihil quis, quos fugiat expedita voluptatibus velit deleniti odit esse. Officiis, enim.</p>
+                                
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="sliderNav">
+                <div class="botones">
+                    <button class="bar" onclick="mover(0);"></button>
+                    <button class="bar" onclick="mover(1);"></button>
+                    <button class="bar" onclick="mover(2);"></button>
+                    <button class="bar" onclick="mover(3);"></button>
+                </div>
+            </div>
+    </section>
+    <!-- TERMINA SLIDER -->
+        
+    <!-- COMIENZA ABOUT -->
+        
+        <section id="Acerca" class="aboutContentBx">
+            <div class="wave">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+                </svg>
+            </div>
+            <div class="titleBx">
+                <h2>Acerca de Nosotros</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, nostrum?</p>
+            </div>
+
+           
+
+
+
+            <div class="box">
+                <div class="navigation">
+                    <div class="navItem" onclick="mover2(0);">
+                        <h5>Atención</h5>
+                    </div>
+                    <div class="navItem" onclick="mover2(1);">
+                        <h5>Calidad</h5>
+                    </div>
+                    <div class="navItem" onclick="mover2(2);">
+                        <h5>Soporte 24/7</h5>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="slider" id="slider">
+                        <div class="customBg">
+                        <div class="content2">
+                            <h2>Atención personalizada</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, ad excepturi blanditiis, quae consequuntur dolorem corrupti est ea reprehenderit eius dolores porro repellendus labore tempore veniam, placeat ut quisquam modi?</p>
+                        </div>    
+                        </div>
+                        <div class="customBg2">
+                            <div class="content2">
+                                <h2>Calidad por encima de todo</h2>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias autem deserunt amet pariatur suscipit. Illum officiis ipsa fuga consequuntur sequi sapiente reiciendis beatae harum dolorum a quos aperiam, similique accusantium.</p>
+                            </div>
+                        </div>
+                        <div class="customBg3">
+                            <div class="content2">
+                                <h2>Soporte 24/7</h2>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias autem deserunt amet pariatur suscipit. Illum officiis ipsa fuga consequuntur sequi sapiente reiciendis beatae harum dolorum a quos aperiam, similique accusantium.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    <!-- TERMINA ABOUT -->
+
+    <!-- COMIENZA MARKET -->
+
+        <section id="Planes" class="market">
+            <div class="wave2">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+                </svg>
+            </div>
+            <div class="titleBx2">
+                <h2>Planes y Servicios</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, nostrum?</p>
+            </div>   
+            <div class="marketcards">
+                
+                <div class="space">
+                    <div class="container">
+        
+                        <div class="card">
+                          <div class="face face1">
+                            <div class="content">
+                              <span class="stars"></span>
+                              <h2>Java</h2>
+                              <p >Java is a class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.</p>
+                            </div>
+                          </div>
+                          <div class="face face2">
+                            <h2>01</h2>
+                          </div>
+                        </div>
+                      
+                        <div class="card">
+                          <div class="face face1">
+                            <div class="content">
+                              <span class="stars"></span>
+                              <h2>Python</h2>
+                              <p>Python is an interpreted, high-level and general-purpose programming language.</p>
+                            </div>
+                          </div>
+                          <div class="face face2">
+                            <h2>02</h2>
+                          </div>
+                        </div>
+                      
+                        <div class="card">
+                          <div class="face face1">
+                            <div class="content">
+                              <span class="stars"></span>
+                              <h2 >C#</h2>
+                              <p>C# is a general-purpose, multi-paradigm programming language encompassing static typing, strong typing, lexically scoped and component-oriented programming disciplines.</p>
+                            </div>
+                          </div>
+                          <div class="face face2">
+                            <h2>03</h2>
+                          </div>
+                        </div>
+                    </div>
+                   </div>
+                
+                
+            </div>
+        </section>
+<!--**** TERMINA CONTENIDO ****-->
+
+        <section id="Contacto" class="contact">
+            <div class="wave3">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+                </svg>
+            </div>
+            <div class="titleBx2">
+                <h2>Contactanos</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore nemo nesciunt explicabo facere aspernatur consectetur porro commodi odit, excepturi magnam?</p>
+            </div>
+            
+            <div class="contactBx">
+                <div class="container">
+                    <div class="card">
+                        <div class="face face1">
+                            <div class="content">
+                                <div class="icon">
+                                    <img src="assets/img/gmail.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content">
+                                <h3>
+                                    <a href="https://www.linkedin.com/in/adamdipinto/" target="_blank">_adamdipinto</a>
+                                </h3>
+                                <p>This is where I network and build my professional protfolio.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="face face1">
+                            <div class="content">
+                                <div class="icon">
+                                    <img src="assets/img/instagram.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content">
+                                <h3>
+                                    <a href="https://twitter.com/AdamDipinto" target="_blank">@AdamDipinto</a>
+                                </h3>
+                                <p>This is where I read news and network with different social groups.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="face face1">
+                            <div class="content">
+                                <div class="icon">
+                                    <img src="assets/img/whatsapp.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content">
+                                <h3>
+                                    <a href="https://github.com/atom888" target="_blank">atom888</a>
+                                </h3>
+                                <p>This is where I share code and work on projects.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <footer>
+            <h2>Desarrollado por Manuel Zorrilla</h2>
+            <h3>Presentacion de Pasantias</h3>
+        </footer>
+
+
+       
+
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

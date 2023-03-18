@@ -1,0 +1,584 @@
+
+/*=============================================
+=           COMIENZO DEL HEADER           =
+=============================================*/
+
+.headerContainer{
+    width: 100%;
+    height: 140vh;
+    /* position: absolute; */
+    text-align: justify;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg);
+}
+
+
+.textBx{
+    
+    width: 50%;
+    margin: 0 2% 7% 5%;
+    color: var(--text);  
+}
+.textBx h2{
+    font-style: italic;
+    font-size: 24pt;
+    margin-bottom:2%;
+    overflow-y: hidden;
+}
+
+
+.textBx p{
+    margin-bottom: 5%;
+}
+
+.round{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    transform: translateY(-30px); 
+    
+}
+
+
+
+.centerLogo{
+    width: 60%;
+    
+}
+
+
+
+/*=====  FINAL DEL HEADER  ======*/
+
+
+
+
+
+
+/*=============================================
+=                 SLIDER                =
+=============================================*/
+.contentBx{
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    overflow-x: hidden;
+}
+.contentBx #contenedor{
+    margin-left: 5%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+.contentBx .container{
+    margin-left: 37%;
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+
+
+.contentBx .object{
+    min-width: 101vw;
+    display: flex;
+    background: var(--bg2);
+    margin-top:-5px;
+}
+.contentBx .object.invert{
+    flex-direction: row-reverse;
+}
+.contentBx .object .imagen img{
+    width:500px;
+    height: 500px;
+    margin: 20px;
+    border: 1px solid var(--text);
+    border-radius: 50%;
+    background: var(--bg3);
+    background-attachment: fixed;
+}
+
+.texto{
+    width: 40%;
+    margin: 15% 2% 7% 5%;
+    color: var(--text);  
+}
+.texto h2{
+    font-style: italic;
+    font-size: 24pt;
+    margin-bottom:2%;
+    overflow-y: hidden;
+}
+.texto strong{
+    display: inline-block;
+    text-decoration:underline ;
+    
+}
+.texto p{
+    margin-bottom: 5%;
+}
+
+
+
+.sliderNav{ 
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background: var(--bg2);
+    margin-top: -20px;
+}
+
+.bar{
+    width: 100px;
+    height: 30px;
+    border: 2px solid var(--text);
+    border-radius: 10px;
+    margin: 6px;
+    cursor: pointer;
+    transition: 0.4s;
+    background: transparent;
+}
+.bar:hover,
+.bar.use{
+    background: var(--text);
+}
+/*=====  FINAL DEL SLIDER  ======*/
+
+
+/*=============================================
+=            COMIENZO DE ACERCA           =
+=============================================*/
+.wave {
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(122% + 1.3px);
+    height: 90px;
+}
+
+.wave .shape-fill {
+    fill: var(--bg2);
+}
+
+.aboutContentBx{
+    height:120vh;
+    background: var(--bg3);
+    color: var(--text);
+
+}
+
+.titleBx {
+    text-align:center;
+    color: var(--text);
+    margin: 5%;
+}
+.titleBx2{
+    text-align:center;
+    color: var(--text);
+}
+.contact .titleBx2{
+    margin-bottom: 10px;
+}
+
+.box{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+.box .navigation{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin: 5px;
+}
+.box .navigation .navItem{
+    border: 2px solid var(--text);
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+    padding: 8px;
+    height: 20px;
+    cursor: pointer;
+    margin: 5px 0px 5px 0px;
+}
+
+.box .content{
+    height: 50vh;
+    width: 50vw;
+    border: 1px solid black;
+    overflow-y: hidden;
+}
+.slider{
+    height: 50vh;
+    width: 50vw;  
+    transition: 0.3s;
+    
+
+}
+.bag{
+    position: absolute;
+
+   height: 50vh;
+    width: 50vw;
+    background: url('../img/2.jpg');
+    opacity: .5;
+    background-position-x: 50%;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-color: white; 
+    z-index: auto;
+}
+
+.content2{
+    height: 50vh;
+    width: 50vw;
+}
+
+.customBg .content2{
+    background:var(--bg);        
+}
+
+.customBg2 .content2{
+    background:var(--bgGradient02);
+}
+
+.customBg3 .content2{
+    background:var(--bgGradient03);   
+}
+
+.content2 h2{
+    text-align:center;
+    padding: 5%;
+    height: auto;
+    width:auto;
+}
+
+.content p {
+    padding: 5%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************/
+
+.wave2 {
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave2 svg {
+    position: relative;
+    display: block;
+    width: calc(122% + 1.3px);
+    height: 90px;
+}
+
+.wave2 .shape-fill {
+    fill: var(--bg3);
+}
+
+.market{
+    height: 130vh;
+    background: var(--bg5);
+    
+}
+.marketcards{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.marketItems{
+    width: 80%;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.items{
+    margin: 10px;
+    min-height: 50vh;
+    padding: 20px;
+    background: var(--bg2);
+    
+}
+.items h3{
+    font-size: 15pt;
+    text-transform: uppercase;
+    margin-bottom: 2%;
+}
+
+
+.contactBx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*=====  End of CONTENIDO (CNT)  ======*/
+.wave3 {
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave3 svg {
+    position: relative;
+    display: block;
+    width: calc(122% + 1.3px);
+    height: 90px;
+}
+
+.wave3 .shape-fill {
+    fill: var(--bg5);
+}
+.contact{
+    height:140vh;
+    background: var(--bg4);
+}
+
+
+footer{
+    background: #000;
+}
+footer h3,
+footer h2{
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*=============================================
+=            Animaciones (ANIM)           =
+=============================================*/
+
+
+@keyframes laptopAnimation {
+    0%{
+        transform: translateY(4%);
+    }
+    100%{
+        transform: translateY(10%);
+    }
+}
+@keyframes urlAnimation {
+    0%{
+        transform: translateX(4%);
+    }
+    100%{
+        transform: translateX(8%);
+    } 
+}
+@keyframes menAnimation {
+    100%{
+        transform: translateY(3%);
+    } 
+}
+
+
+
+
+/*=====  End of Animaciones  ======*/
+
+
+
+/*=============================================
+=            MEDIA QUERYS    (MEDQUE)        =
+=============================================*/
+
+
+@media (max-width: 1048px) {
+
+    .textBx{
+        width: 80%;
+    }
+
+}
+@media (max-width: 900px) {
+   
+ 
+   .headerContainer{
+       flex-direction: column-reverse;
+   }
+
+   .parallax{
+
+        width: 38vw;
+        height: 30%;
+        margin-bottom: 0%;
+        margin-left: 10%;
+   }
+
+    /* CONTENT */
+    .contentBx #contenedor{
+        transform: translateY(-3%);
+        margin-left: 0px;
+    }
+    .contentBx .object,
+    .contentBx .object.invert{
+        flex-direction:column;
+        justify-content:center;
+        align-items: center;
+
+    }
+
+    .contentBx .object .imagen img{
+        margin-top: 50px;
+        width:200px;
+        height: 200px;
+    
+       
+    }
+
+    .texto{
+        width: 70%; 
+        margin:0 0 80px 0;
+    }
+    .texto h2{
+       text-align: center;
+    }
+   
+    .sliderNav{
+        margin-top: -40px;
+    }
+    
+    .bar{
+        width: 100px;
+        height: 30px;
+        border: 2px solid var(--text);
+        margin: 6px;
+        cursor: pointer;
+        transition: 0.4s;
+        background: transparent;
+    }
+    .bar:hover{
+        background: var(--text);
+    }
+
+    .aboutContentBx{
+        height: 250vh;
+    }
+    .aboutContentBx .cardSection{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+
+    .box{
+        flex-direction: column;
+    }
+    .box .navigation{
+        flex-direction: row;
+    }
+    .marketItems{
+        overflow-x: scroll;
+    }
+
+
+}
+@media (max-width: 500px) {
+    .parallax{
+        width: 500px;
+        height: 50vh;
+        
+    }
+    
+    .parallax .lap{
+        width: 50vw;
+        
+    }
+    .parallax #urll{
+        width: 30%;
+        margin-top: 25px;
+    }
+    .parallax #men{
+        width: 15%;
+        margin-top:20%;
+        margin-left: 35%;
+    }
+
+
+    
+    .bar{
+        width: 70px;
+        height: 20px;
+        margin: 3px;
+    }
+   
+}
+
+@media (max-width: 360px) {
+    
+    .parallax{
+        width: 350px;
+        height: 200px;
+    }
+    .bar{
+        width: 50px;
+        height: 15px;
+        margin: 3px;
+    }
+}
+/*     display: block; */
+
+/*=====  End of MEDIA QUERYS  ======*/
+
+
+
+
+.OBJETO{
+    margin-top: 5000px;
+}
