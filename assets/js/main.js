@@ -29,13 +29,13 @@ let translate2 = ['translateY(0)', 'translateY(-100%)', 'translateY(-200%)'];
 /* LOCAL STORAGE */
 
 
-if (localStorage){
+if (localStorage.getItem('theme')){
     body.classList.replace('light', localStorage.getItem('theme'));
     if (localStorage.getItem('theme')=='dark') {
         theme.classList.add('checked');
     }
         
-}
+} 
 
 
 /* FUNCIONES */
