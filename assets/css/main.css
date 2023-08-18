@@ -26,7 +26,7 @@
    --buttonO2: #e9e5e5;
     
 }
-.ligth{
+.light{
     --bg: linear-gradient(var(--tema5), var(--tema7));
     --bg2: var(--tema7);
     --bg3: var(--tema8);
