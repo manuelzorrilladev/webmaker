@@ -315,7 +315,7 @@
 }
 
 .market{
-    height: 130vh;
+    height: fit-content;
     background: var(--bg5);
     
 }
@@ -377,7 +377,8 @@
     fill: var(--bg5);
 }
 .contact{
-    height:140vh;
+     height: fit-content;
+    margin-bottom: 20px;
     background: var(--bg4);
 }
 
