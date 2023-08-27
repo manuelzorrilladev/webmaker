@@ -527,6 +527,9 @@ footer h2{
     .marketItems{
         overflow-x: scroll;
     }
+    .contactBx .container{
+        flex-direction: column;
+    }
 
 
 }
